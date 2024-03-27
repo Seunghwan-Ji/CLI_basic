@@ -1,4 +1,4 @@
-# CLI basic (Unix Commands)
+# CLI(Command Line Interface) basic (Unix Commands)
 
 ## git bash
 
