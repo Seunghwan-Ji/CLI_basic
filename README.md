@@ -65,6 +65,7 @@ $ git switch -c
 $ git merge
 $ git log --oneline --graph
 $ git pull origin master (원격 저장소의 변경사항을 가져옵니다.)
+$ git pull origin master --allow-unrelated-histories
 $ git push --force origin master (강제로 푸쉬합니다.)
 ```
 
