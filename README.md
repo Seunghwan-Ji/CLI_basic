@@ -67,6 +67,10 @@ $ git log --oneline --graph
 $ git pull origin master (원격 저장소의 변경사항을 가져옵니다.)
 $ git pull origin master --allow-unrelated-histories
 $ git push --force origin master (강제로 푸쉬합니다.)
+<모든 커밋에서 삭제>(주로 커밋된 용량 큰 파일 삭제용)
+$ git filter-branch --force --index-filter "git rm --cached --ignore-unmatch path/file.mp4" --prune-empty --tag-name-filter cat -- --all
+$ git push origin --force --all
+$ git push origin --force --tags
 ```
 
 #### git 최초 등록
